@@ -12,7 +12,7 @@ import utils.BaseTest;
 public class ManipulacaoElementosTest extends BaseTest {
 	
 	@Test
-	public void manipulacaoElementos() throws InterruptedException {
+	public void manipulacaoElementos() {
 		driver.get("http://eliasnogueira.com/selenium/exercicios/lista/elementos_html/");
 		
 		WebElement nome = driver.findElement(By.id("name1"));
